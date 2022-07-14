@@ -4,8 +4,8 @@ body {
 
 /* Hero Section */
 
-#Hero-Section {
-  background-image: url("../img/bg-hero_01.jpg");
+#About-Section {
+  background-image: url("../img/bg-hero_02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -13,11 +13,22 @@ body {
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
+#Trabajos-Colaborativos {
+  background-image: url("../img/bg-hero_02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
+}
+
+#Trabajos-Colaborativos .image-top {
+  height: 125px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
 
 /* Contacto */
